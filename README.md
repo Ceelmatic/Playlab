@@ -12,3 +12,5 @@ Ressources for web development
 4. Create _config.yml
 5. Create index.html
 6. Create .gitignore
+7. Create _layouts/ folder
+8. Create default.html in _layouts/
