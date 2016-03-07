@@ -1,0 +1,19 @@
+<div class="card card-block">
+  <h4 class="card-title">highlight.js - Syntax highlighting for the Web</h4>
+  <p class="card-text">
+    The bare minimum for using highlight.js on a web page is linking to the library along with one of the styles and calling initHighlightingOnLoad:
+
+    <pre><code>&lt;link rel="stylesheet" href="/path/to/styles/default.css"&gt;
+&lt;script src="/path/to/highlight.pack.js"&gt;&lt;/script&gt;
+&lt;script&gt;hljs.initHighlightingOnLoad();&lt;/script&gt;</code></pre>
+
+    This will find and highlight code inside of <code>&lt;pre&gt;&lt;code&gt;</code> tags; it tries to detect the language automatically. If automatic detection doesn’t work for you, you can specify the language in the class attribute:
+
+    <pre><code>&lt;pre&gt;&lt;code class="html"&gt;...&lt;/code&gt;&lt;/pre&gt;</code></pre>
+
+    The list of supported language classes is available in the class reference. Classes can also be prefixed with either language- or lang-. To disable highlighting altogether use the nohighlight class:
+
+    <pre><code>&lt;pre&gt;&lt;code class="nohighlight"&gt;...&lt;/code&gt;&lt;/pre&gt;</code></pre>
+  </p>
+  <a href="https://highlightjs.org/" class="card-link">https://highlightjs.org/</a>
+</div>
