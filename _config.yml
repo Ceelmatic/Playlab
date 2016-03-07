@@ -1,3 +1,4 @@
 markdown: redcarpet
+highlighter: rouge
 baseurl: /Playlab
 exclude: ['README.md']
