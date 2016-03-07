@@ -11,3 +11,4 @@ Ressources for web development
 3. Delete master branch
 4. Create _config.yml
 5. Create index.html
+6. Create .gitignore
