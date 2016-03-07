@@ -1,0 +1,19 @@
+/*
+
+#282c37
+#9baec8
+#d9e1e8
+#2b90d9
+
+*/
+
+.navbar,
+.jumbotron {
+  background-color: #9baec8;
+}
+
+@media (min-width: 544px) {
+  .navbar {
+    border-radius: 0;
+  }
+}
