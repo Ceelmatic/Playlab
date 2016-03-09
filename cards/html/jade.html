@@ -1,6 +1,46 @@
 <div class="card card-block">
-  <h4 class="card-title">Card title</h4>
-  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  <a href="#" class="card-link">Card link</a>
-  <a href="#" class="card-link">Another link</a>
+  <h4 class="card-title">Jade</h4>
+  <p class="card-text">Jade is a high performance template engine heavily influenced by <a href="http://haml.info/">Haml</a> and implemented with JavaScript for <a href="http://nodejs.org/">node</a> and browsers</p>
+  <p class="card-text">Jade is a clean, whitespace sensitive syntax for writing html. Here is a simple example:</p>
+  <pre><code>doctype html
+html(lang="en")
+  head
+    title= pageTitle
+    script(type='text/javascript').
+      if (foo) bar(1 + 5)
+  body
+    h1 Jade - node template engine
+    #container.col
+      if youAreUsingJade
+        p You are amazing
+      else
+        p Get on it!
+      p.
+        Jade is a terse and simple templating language with a
+        strong focus on performance and powerful features.</code></pre>
+    <p class="card-text">becomes</p>
+    <pre><code class="html">&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+  &lt;head&gt;
+    &lt;title&gt;Jade&lt;/title&gt;
+    &lt;script type="text/javascript"&gt;
+      if (foo) {
+         bar(1 + 5)
+      }
+    &lt;/script&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Jade - node template engine&lt;/h1&gt;
+    &lt;div id="container" class="col"&gt;
+      &lt;p&gt;You are amazing&lt;/p&gt;
+      &lt;p&gt;
+        Jade is a terse and simple templating language with a
+        strong focus on performance and powerful features.
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+
+  <a href="http://jade-lang.com/" class="card-link">Official website</a><br>
+  <a href="https://github.com/jadejs/jade" class="card-link">Jade on <i class="fa fa-github fa-lg"></i></a>
 </div>
