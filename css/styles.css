@@ -11,6 +11,7 @@
 body {
   background-color: #F7F7F9;
   font-family: 'Maven Pro', sans-serif;
+  color: #4D4F5B;
 }
 
 .jumbotron {
@@ -18,7 +19,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0px -200px;
-  color: #F5AC43;
+  color: #4D4F5B;
 }
 
 @media (min-width: 544px) {
@@ -36,4 +37,9 @@ body {
 
 .card-title {
     margin-bottom: 1rem;
+    color: #4D4F5B;
+}
+
+.card-upright {
+  float: right;
 }
